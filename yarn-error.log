@@ -1,0 +1,52 @@
+Arguments: 
+  /Users/jugba/.nvm/versions/node/v11.6.0/bin/node /usr/local/bin/yarn add express monk, mongoose
+
+PATH: 
+  /Users/jugba/.pyenv/shims:/Users/jugba/.pyenv/bin:/usr/local/opt/qt@5.5/bin:/Users/jugba/.rvm/gems/ruby-2.4.0/bin:/Users/jugba/.rvm/gems/ruby-2.4.0@global/bin:/Users/jugba/.rvm/rubies/ruby-2.4.0/bin:/Users/jugba/.nvm/versions/node/v11.6.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/jugba/bin:/Users/jugba/.rvm/bin
+
+Yarn version: 
+  0.24.4
+
+Node version: 
+  11.6.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "y",
+    "version": "1.0.0",
+    "description": "Disease Visualization",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "disease",
+      "visuals",
+      "visualisation",
+      "d3js"
+    ],
+    "author": "ju",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://thezebra.jfrog.io/thezebra/api/npm/npm/monk,: not_found
+      at Request.params.callback [as _callback] (/usr/local/lib/node_modules/yarn/lib/util/request-manager.js:326:18)
+      at Request.self.callback (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:188:22)
+      at Request.emit (events.js:188:13)
+      at Request.<anonymous> (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:1171:10)
+      at Request.emit (events.js:188:13)
+      at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/yarn/node_modules/request/request.js:1091:12)
+      at Object.onceWrapper (events.js:276:13)
+      at IncomingMessage.emit (events.js:193:15)
+      at endReadableNT (_stream_readable.js:1129:12)
+      at process.internalTickCallback (internal/process/next_tick.js:72:19)
